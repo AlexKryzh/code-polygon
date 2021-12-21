@@ -19,28 +19,24 @@ function Footer() {
         }, [i18n]);
 
       return (
-        <footer className="footer py-3">
-            <div className="container-lg">
-                <div className="row">
-                    <div className="footer__langs col-12 col-sm-6">
-                        <ul className="ps-0 mb-sm-0">
-                        { langs && Object.keys(langs as ILang)
-                            .map((lang: string) => 
-                                <li className="d-block d-sm-inline-block" key={lang}>
-                                    <button 
-                                        className={`footer__lang btn btn-link ${i18n.resolvedLanguage === lang ? 'is-active' : ''}`} 
-                                        onClick={() => setLanguage(lang)}
-                                        aria-label={lang}
-                                        title={t('page.changeLang')}
-                                        >{langs[lang].nativeName}</button>
-                                </li>
-                            )}
-                        </ul>
-                    </div>
-                    <div className="footer__year col-12 col-sm-6 text-start text-sm-end">
-                        &copy; {currentYear}
-                    </div>
-                </div>
+        <footer className="footer">
+            <div className="footer__langs">
+                <ul>
+                { langs && Object.keys(langs as ILang)
+                    .map((lang: string) => 
+                        <li key={lang}>
+                            <button 
+                                className={`footer__lang ${i18n.resolvedLanguage === lang ? 'is-active' : ''}`} 
+                                onClick={() => setLanguage(lang)}
+                                aria-label={lang}
+                                title={t('page.changeLang')}
+                                >{langs[lang].nativeName}</button>
+                        </li>
+                    )}
+                </ul>
+            </div>
+            <div className="footer__year">
+                &copy; {currentYear}
             </div>
         </footer>
       );
