@@ -1,18 +1,35 @@
-import { useTranslation } from 'react-i18next';
+import Typography from 'carbon-react/lib/components/typography';
+import { Accordion, AccordionGroup } from 'carbon-react/lib/components/accordion';
+import Box from 'carbon-react/lib/components/box';
 import './Home.scss';
 import Link from 'carbon-react/lib/components/link';
 
 function Home() {
-    const { t } = useTranslation();
 
     return (
         <div className="home">
-            <section >
-                <h1 className="home__title">{t('home.title')}</h1>
-                <div>
-                    <Link>This is a link</Link>
-                </div>
-            </section>
+            <Typography variant="h1">Code Playground</Typography>
+            <AccordionGroup>
+                <Accordion title="Design Patterns" borders="none">
+                    <Accordion title="Creational Design Patterns"  borders="none">
+                        <Box py={2}>
+                            <Link>Factory Method</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link>Abstract Method</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link>Builder</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link>Prototype</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link href="/design-patterns-singleton">Singleton</Link>
+                        </Box>
+                    </Accordion>
+                </Accordion>
+            </AccordionGroup>
         </div>
       );
 }

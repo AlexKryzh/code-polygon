@@ -1,4 +1,4 @@
-import { HttpResponse, MessageType } from 'shared';
+import { HttpResponse } from 'shared';
 import { StoreHelper } from 'store';
 
 interface IHttpService {
@@ -21,12 +21,12 @@ export class HttpService implements IHttpService {
             this.storeHelper.setIsLoading(true);
             const response: HttpResponse = await fetch(`${this.apiUrl}${url}`);
             if (!response.ok) {
-                this.storeHelper.pushMessage({id: '', type: MessageType.warning, text: 'page.apiNotFound'});
+                this.storeHelper.pushMessage({id: '', type: 'warning', text: 'page.apiNotFound'});
             }
             return response;
         }
         catch (e: unknown) {
-            this.storeHelper.pushMessage({id: '', type: MessageType.danger, text: 'page.apiError'});
+            this.storeHelper.pushMessage({id: '', type: 'error', text: 'page.apiError'});
         }
         finally {
             this.storeHelper.setIsLoading(false);

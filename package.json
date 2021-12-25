@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "server": "json-server --watch db.json --port 3010",
-    "start": "react-scripts start",
+    "start": "PORT=3006 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -16,6 +16,7 @@
     "lint:editor": "eclint fix"
   },
   "dependencies": {
+    "@monaco-editor/react": "^4.3.1",
     "@types/node": "^16.11.6",
     "@types/react": "^17.0.33",
     "@types/react-dom": "^17.0.10",

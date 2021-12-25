@@ -20,14 +20,14 @@ i18n
       en: {
         translation: {
           home: {
-            title: 'Home'
+            title: 'Code Playground'
           }
         }
       },
       es: {
         translation: {
           home: {
-            title: 'Home'
+            title: 'Code Playground'
           }
         }
       }

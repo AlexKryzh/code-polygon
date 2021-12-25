@@ -1,27 +1,13 @@
-import { useCallback } from 'react';
-import { langs, ILang, MessageType } from 'shared';
-import { StoreHelper } from 'store';
-import { useTranslation } from 'react-i18next';
 import './Footer.scss';
 
 function Footer() {
     const today = new Date();
     const currentYear = today.getFullYear();
-    const { t, i18n } = useTranslation();
-    const setLanguage = useCallback(
-        (lang: string) => {
-            if (lang === i18n.resolvedLanguage) {
-                return;
-            }
-            const storeHelper = new StoreHelper();
-            storeHelper.pushMessage({id: '', type: MessageType.info, text: 'page.langChanged'});
-            return i18n.changeLanguage(lang);
-        }, [i18n]);
 
       return (
         <footer className="footer">
             <div className="footer__langs">
-                <ul>
+                {/* <ul>
                 { langs && Object.keys(langs as ILang)
                     .map((lang: string) => 
                         <li key={lang}>
@@ -33,7 +19,7 @@ function Footer() {
                                 >{langs[lang].nativeName}</button>
                         </li>
                     )}
-                </ul>
+                </ul> */}
             </div>
             <div className="footer__year">
                 &copy; {currentYear}
