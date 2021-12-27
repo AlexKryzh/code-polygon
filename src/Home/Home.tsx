@@ -30,7 +30,7 @@ function Home() {
                     </Accordion>
                     <Accordion title="Structural Design Patterns"  borders="none">
                         <Box py={2}>
-                            <Link>Adapter</Link>
+                            <Link href="/design-patterns-adapter">Adapter</Link>
                         </Box>
                         <Box py={2}>
                             <Link>Bridge</Link>

@@ -8,6 +8,7 @@ import Header from './Header/Header';
 import NotFound from './NotFound/NotFound';
 import Home from './Home/Home';
 import DesignPatternsSingleton from './DesignPatterns/DesignPatternsSingleton';
+import DesignPatternsAdapter from './DesignPatterns/DesignPatternsAdapter';
 import Loading from './Loading/Loading';
 import Messages from './Messages/Messages';
 import Footer from './Footer/Footer';
@@ -32,6 +33,9 @@ function App() {
                             </Route>
                             <Route exact path='/design-patterns-singleton'>
                                 <DesignPatternsSingleton />
+                            </Route>
+                            <Route exact path='/design-patterns-adapter'>
+                                <DesignPatternsAdapter />
                             </Route>
                             <Route path='/404' component={NotFound} />
                             <Redirect from='*' to='/404' />
