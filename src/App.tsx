@@ -9,6 +9,7 @@ import NotFound from './NotFound/NotFound';
 import Home from './Home/Home';
 import DesignPatternsSingleton from './DesignPatterns/DesignPatternsSingleton';
 import DesignPatternsAdapter from './DesignPatterns/DesignPatternsAdapter';
+import ReactHooksUseRef from './ReactHooks/ReactHooksUseRef';
 import Loading from './Loading/Loading';
 import Messages from './Messages/Messages';
 import Footer from './Footer/Footer';
@@ -36,6 +37,9 @@ function App() {
                             </Route>
                             <Route exact path='/design-patterns-adapter'>
                                 <DesignPatternsAdapter />
+                            </Route>
+                            <Route exact path='/react-hooks-useref'>
+                                <ReactHooksUseRef />
                             </Route>
                             <Route path='/404' component={NotFound} />
                             <Redirect from='*' to='/404' />

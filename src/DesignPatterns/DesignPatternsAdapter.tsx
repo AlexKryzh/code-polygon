@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react';
 import Editor from '@monaco-editor/react';
 import Heading from 'carbon-react/lib/components/heading';
 import Detail from 'carbon-react/lib/components/detail';

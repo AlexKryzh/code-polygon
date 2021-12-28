@@ -84,6 +84,42 @@ function Home() {
                         </Box>
                     </Accordion>
                 </Accordion>
+                <Accordion title="React Hooks" borders="none">
+                    <Accordion title="Basic Hooks"  borders="none">
+                        <Box py={2}>
+                            <Link>useState</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link>useEffect</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link>useContext</Link>
+                        </Box>
+                    </Accordion>
+                    <Accordion title="Additional Hooks"  borders="none">
+                        <Box py={2}>
+                            <Link>useReducer</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link>useCallback</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link>useMemo</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link href="/react-hooks-useref">useRef</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link>useImperativeHandle</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link>useLayoutEffect</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link>useDebugValue</Link>
+                        </Box>
+                    </Accordion>
+                </Accordion>
             </AccordionGroup>
         </div>
       );
