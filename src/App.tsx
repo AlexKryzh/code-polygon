@@ -10,6 +10,7 @@ import Home from './Home/Home';
 import DesignPatternsSingleton from './DesignPatterns/DesignPatternsSingleton';
 import DesignPatternsAdapter from './DesignPatterns/DesignPatternsAdapter';
 import ReactHooksUseRef from './ReactHooks/ReactHooksUseRef';
+import LibrariesBigJs from './Libraries/LibrariesBigJs';
 import Loading from './Loading/Loading';
 import Messages from './Messages/Messages';
 import Footer from './Footer/Footer';
@@ -40,6 +41,9 @@ function App() {
                             </Route>
                             <Route exact path='/react-hooks-useref'>
                                 <ReactHooksUseRef />
+                            </Route>
+                            <Route exact path='/libraries-bigjs'>
+                                <LibrariesBigJs />
                             </Route>
                             <Route path='/404' component={NotFound} />
                             <Redirect from='*' to='/404' />

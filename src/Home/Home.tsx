@@ -120,6 +120,11 @@ function Home() {
                         </Box>
                     </Accordion>
                 </Accordion>
+                <Accordion title="Libraries" borders="none">
+                    <Box py={2}>
+                    <Link href="/libraries-bigjs">Big.js</Link>
+                    </Box>
+                </Accordion>
             </AccordionGroup>
         </div>
       );
