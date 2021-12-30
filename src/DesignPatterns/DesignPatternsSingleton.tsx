@@ -64,7 +64,7 @@ function DesignPatternsSingleton() {
                         <Detail>Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.</Detail>
                     </CardRow>
                 </Card>
-                <Image alt="Example alt text" src="/images/singleton.png" style={{height: '150px', width: 'auto'}} />
+                <Image alt="Singleton / Creational Design Pattern" src="/images/singleton.png" style={{height: '150px', width: 'auto'}} />
             </Box>
             
             <Editor

@@ -69,7 +69,7 @@ function DesignPatternsAdapter() {
                         <Detail>Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate.</Detail>
                     </CardRow>
                 </Card>
-                <Image alt="Example alt text" src="/images/adapter.png" style={{height: '150px', width: 'auto'}} />
+                <Image alt="Adapter / Structural Design Pattern" src="/images/adapter.png" style={{height: '150px', width: 'auto'}} />
             </Box>
             
             <Editor

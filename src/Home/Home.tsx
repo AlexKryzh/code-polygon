@@ -68,7 +68,7 @@ function Home() {
                             <Link>Memento</Link>
                         </Box>
                         <Box py={2}>
-                            <Link>Observer</Link>
+                            <Link href="/design-patterns-observer">Observer</Link>
                         </Box>
                         <Box py={2}>
                             <Link>State</Link>

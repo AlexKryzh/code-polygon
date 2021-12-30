@@ -17,7 +17,7 @@ function ReactHooksUseRef() {
 
     return (
         <div>
-            <Heading title="Adapter / Structural Design Pattern" />
+            <Heading title="useRef / React Hook" />
             <Box display="flex" flexDirection="row" justifyContent="space-between" alignItems="stretch" mb={3}>
                 <Card spacing="medium" cardWidth="300px">
                     <CardRow spacing="medium">
@@ -42,7 +42,7 @@ function TextInputWithFocusButton() {
             <input ref={inputEl} type="text" />
             <button onClick={onButtonClick}>Focus the input</button>
         </div>);
-    }
+}
                 `}
             />
             <Box m={3} p={3} bg="secondary">
