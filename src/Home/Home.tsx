@@ -42,7 +42,7 @@ function Home() {
                             <Link>Decorator</Link>
                         </Box>
                         <Box py={2}>
-                            <Link>Facade</Link>
+                            <Link href="/design-patterns-facade">Facade</Link>
                         </Box>
                         <Box py={2}>
                             <Link>Flyweight</Link>

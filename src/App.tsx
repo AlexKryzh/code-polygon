@@ -10,6 +10,7 @@ import Home from './Home/Home';
 import DesignPatternsSingleton from './DesignPatterns/DesignPatternsSingleton';
 import DesignPatternsAdapter from './DesignPatterns/DesignPatternsAdapter';
 import DesignPatternsObserver from './DesignPatterns/DesignPatternsObserver';
+import DesignPatternsFacade from './DesignPatterns/DesignPatternsFacade';
 import ReactHooksUseContext from './ReactHooks/ReactHooksUseContext';
 import ReactHooksUseRef from './ReactHooks/ReactHooksUseRef';
 import LibrariesBigJs from './Libraries/LibrariesBigJs';
@@ -40,6 +41,9 @@ function App() {
                             </Route>
                             <Route exact path='/design-patterns-adapter'>
                                 <DesignPatternsAdapter />
+                            </Route>
+                            <Route exact path='/design-patterns-facade'>
+                                <DesignPatternsFacade />
                             </Route>
                             <Route exact path='/design-patterns-observer'>
                                 <DesignPatternsObserver />
