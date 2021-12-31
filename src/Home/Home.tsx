@@ -120,6 +120,26 @@ function Home() {
                         </Box>
                     </Accordion>
                 </Accordion>
+                <Accordion title="Typescript" borders="none">
+                    <Box py={2}>
+                        <Link href="/typescript-declare">Declare</Link>
+                    </Box>
+                    <Box py={2}>
+                        <Link href="/typescript-generics">Generics</Link>
+                    </Box>
+                    <Box py={2}>
+                        <Link href="/typescript-intersection">Intersection</Link>
+                    </Box>
+                    <Box py={2}>
+                        <Link href="/typescript-iterator">Iterator</Link>
+                    </Box>
+                    <Box py={2}>
+                        <Link href="/typescript-enums">Enums</Link>
+                    </Box>
+                    <Box py={2}>
+                        <Link href="/typescript-tuple">Tuple</Link>
+                    </Box>
+                </Accordion>
                 <Accordion title="Libraries" borders="none">
                     <Box py={2}>
                     <Link href="/libraries-bigjs">Big.js</Link>

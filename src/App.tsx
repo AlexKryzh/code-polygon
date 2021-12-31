@@ -14,6 +14,12 @@ import DesignPatternsFacade from './DesignPatterns/DesignPatternsFacade';
 import ReactHooksUseContext from './ReactHooks/ReactHooksUseContext';
 import ReactHooksUseRef from './ReactHooks/ReactHooksUseRef';
 import LibrariesBigJs from './Libraries/LibrariesBigJs';
+import TypescriptEnums from './Typescript/TypescriptEnums';
+import TypescriptDeclare from './Typescript/TypescriptDeclare';
+import TypescriptGenerics from './Typescript/TypescriptGenerics';
+import TypescriptTuple from './Typescript/TypescriptTuple';
+import TypescriptIntersection from './Typescript/TypescriptIntersection';
+import TypescriptIterator from './Typescript/TypescriptIterator';
 import Loading from './Loading/Loading';
 import Messages from './Messages/Messages';
 import Footer from './Footer/Footer';
@@ -57,7 +63,27 @@ function App() {
                             <Route exact path='/libraries-bigjs'>
                                 <LibrariesBigJs />
                             </Route>
-                            <Route path='/404' component={NotFound} />
+                            <Route exact path='/typescript-enums'>
+                                <TypescriptEnums />
+                            </Route>
+                            <Route exact path='/typescript-declare'>
+                                <TypescriptDeclare />
+                            </Route>
+                            <Route exact path='/typescript-generics'>
+                                <TypescriptGenerics />
+                            </Route>
+                            <Route exact path='/typescript-intersection'>
+                                <TypescriptIntersection />
+                            </Route>
+                            <Route exact path='/typescript-iterator'>
+                                <TypescriptIterator />
+                            </Route>    
+                            <Route exact path='/typescript-tuple'>
+                                <TypescriptTuple />
+                            </Route>                     
+                            <Route path='/404'>
+                                <NotFound />
+                            </Route>
                             <Redirect from='*' to='/404' />
                         </Switch>
                         <Footer />
