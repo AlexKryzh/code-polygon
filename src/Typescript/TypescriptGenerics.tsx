@@ -43,6 +43,24 @@ reversed = ['1', '2']; // Error!
 
 reversed[0] = 1; // Okay
 reversed = [1, 2]; // Okay
+
+//Since TypeScript has a structural type system, type parameters only affect compatibility when used by member. For example, in the following T has no impact on compatibility:
+
+interface Empty<T> {
+}
+let x: Empty<number>;
+let y: Empty<string>;
+
+x = y; // okay, y matches structure of x
+
+//However if T is used, it will play a role in compatibility based on its instantiation as shown below:
+interface NotEmpty<T> {
+    data: T;
+}
+let x: NotEmpty<number>;
+let y: NotEmpty<string>;
+
+x = y; // error, x and y are not compatible
                 `}
             />
         </div>

@@ -20,6 +20,11 @@ import TypescriptGenerics from './Typescript/TypescriptGenerics';
 import TypescriptTuple from './Typescript/TypescriptTuple';
 import TypescriptIntersection from './Typescript/TypescriptIntersection';
 import TypescriptIterator from './Typescript/TypescriptIterator';
+import TypescriptCallable from './Typescript/TypescriptCallable';
+import TypescriptIn from './Typescript/TypescriptIn';
+import TypescriptLiterals from './Typescript/TypescriptLiterals';
+import TypescriptReadOnly from './Typescript/TypescriptReadOnly';
+import TypescriptIndexSignature from './Typescript/TypescriptIndexSignature';
 import Loading from './Loading/Loading';
 import Messages from './Messages/Messages';
 import Footer from './Footer/Footer';
@@ -77,10 +82,26 @@ function App() {
                             </Route>
                             <Route exact path='/typescript-iterator'>
                                 <TypescriptIterator />
-                            </Route>    
+                            </Route>  
+                            <Route exact path='/typescript-callable'>
+                                <TypescriptCallable />
+                            </Route>   
                             <Route exact path='/typescript-tuple'>
                                 <TypescriptTuple />
-                            </Route>                     
+                            </Route>  
+                            <Route exact path='/typescript-in'>
+                                <TypescriptIn />
+                            </Route>   
+                            <Route exact path='/typescript-literals'>
+                                <TypescriptLiterals />
+                            </Route>
+                            <Route exact path='/typescript-readonly'>
+                                <TypescriptReadOnly />
+                            </Route>     
+                            <Route exact path='/typescript-index-signature'>
+                                <TypescriptIndexSignature />
+                            </Route>    
+                                  
                             <Route path='/404'>
                                 <NotFound />
                             </Route>

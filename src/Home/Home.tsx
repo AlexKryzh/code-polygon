@@ -131,13 +131,28 @@ function Home() {
                         <Link href="/typescript-intersection">Intersection</Link>
                     </Box>
                     <Box py={2}>
+                        <Link href="/typescript-index-signature">Index Signature</Link>
+                    </Box>
+                    <Box py={2}>
                         <Link href="/typescript-iterator">Iterator</Link>
                     </Box>
                     <Box py={2}>
                         <Link href="/typescript-enums">Enums</Link>
                     </Box>
                     <Box py={2}>
+                        <Link href="/typescript-readonly">Readonly</Link>
+                    </Box>
+                    <Box py={2}>
                         <Link href="/typescript-tuple">Tuple</Link>
+                    </Box>
+                    <Box py={2}>
+                        <Link href="/typescript-callable">Callable</Link>
+                    </Box>
+                    <Box py={2}>
+                        <Link href="/typescript-in">In</Link>
+                    </Box>
+                    <Box py={2}>
+                        <Link href="/typescript-literals">Literals</Link>
                     </Box>
                 </Accordion>
                 <Accordion title="Libraries" borders="none">
