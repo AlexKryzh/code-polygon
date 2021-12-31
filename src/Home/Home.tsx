@@ -128,7 +128,13 @@ function Home() {
                         <Link href="/typescript-generics">Generics</Link>
                     </Box>
                     <Box py={2}>
+                        <Link href="/typescript-union">Union</Link>
+                    </Box>
+                    <Box py={2}>
                         <Link href="/typescript-intersection">Intersection</Link>
+                    </Box>
+                    <Box py={2}>
+                        <Link href="/typescript-type-vs-interface">Type vs Interface</Link>
                     </Box>
                     <Box py={2}>
                         <Link href="/typescript-index-signature">Index Signature</Link>
@@ -147,6 +153,12 @@ function Home() {
                     </Box>
                     <Box py={2}>
                         <Link href="/typescript-callable">Callable</Link>
+                    </Box>
+                    <Box py={2}>
+                        <Link href="/typescript-barrel">Barrel</Link>
+                    </Box>
+                    <Box py={2}>
+                        <Link href="/typescript-null">Null</Link>
                     </Box>
                     <Box py={2}>
                         <Link href="/typescript-in">In</Link>

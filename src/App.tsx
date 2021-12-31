@@ -19,12 +19,16 @@ import TypescriptDeclare from './Typescript/TypescriptDeclare';
 import TypescriptGenerics from './Typescript/TypescriptGenerics';
 import TypescriptTuple from './Typescript/TypescriptTuple';
 import TypescriptIntersection from './Typescript/TypescriptIntersection';
+import TypescriptUnion from './Typescript/TypescriptUnion';
 import TypescriptIterator from './Typescript/TypescriptIterator';
 import TypescriptCallable from './Typescript/TypescriptCallable';
 import TypescriptIn from './Typescript/TypescriptIn';
+import TypescriptNull from './Typescript/TypescriptNull';
+import TypescriptBarrel from './Typescript/TypescriptBarrel';
 import TypescriptLiterals from './Typescript/TypescriptLiterals';
 import TypescriptReadOnly from './Typescript/TypescriptReadOnly';
 import TypescriptIndexSignature from './Typescript/TypescriptIndexSignature';
+import TypescriptTypeVSInterface from './Typescript/TypescriptTypeVSInterface';
 import Loading from './Loading/Loading';
 import Messages from './Messages/Messages';
 import Footer from './Footer/Footer';
@@ -77,6 +81,9 @@ function App() {
                             <Route exact path='/typescript-generics'>
                                 <TypescriptGenerics />
                             </Route>
+                            <Route exact path='/typescript-union'>
+                                <TypescriptUnion />
+                            </Route>
                             <Route exact path='/typescript-intersection'>
                                 <TypescriptIntersection />
                             </Route>
@@ -89,9 +96,18 @@ function App() {
                             <Route exact path='/typescript-tuple'>
                                 <TypescriptTuple />
                             </Route>  
+                            <Route exact path='/typescript-type-vs-interface'>
+                                <TypescriptTypeVSInterface />
+                            </Route>
                             <Route exact path='/typescript-in'>
                                 <TypescriptIn />
-                            </Route>   
+                            </Route> 
+                            <Route exact path='/typescript-barrel'>
+                                <TypescriptBarrel />
+                            </Route> 
+                            <Route exact path='/typescript-null'>
+                                <TypescriptNull />
+                            </Route>  
                             <Route exact path='/typescript-literals'>
                                 <TypescriptLiterals />
                             </Route>
