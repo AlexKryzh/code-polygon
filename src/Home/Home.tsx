@@ -167,6 +167,11 @@ function Home() {
                         <Link href="/typescript-literals">Literals</Link>
                     </Box>
                 </Accordion>
+                <Accordion title="Functional Programming" borders="none">
+                    <Box py={2}>
+                    <Link href="/functional-programming-higher-order-functions">Higher-Order Functions</Link>
+                    </Box>
+                </Accordion>
                 <Accordion title="Libraries" borders="none">
                     <Box py={2}>
                     <Link href="/libraries-bigjs">Big.js</Link>

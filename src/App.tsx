@@ -38,6 +38,7 @@ import TypescriptLiterals from './Typescript/TypescriptLiterals';
 import TypescriptReadOnly from './Typescript/TypescriptReadOnly';
 import TypescriptIndexSignature from './Typescript/TypescriptIndexSignature';
 import TypescriptTypeVSInterface from './Typescript/TypescriptTypeVSInterface';
+import FunctionalProgrammingHigherOrderFunctions from './FunctionalProgramming/FunctionalProgrammingHigherOrderFunctions';
 import Loading from './Loading/Loading';
 import Messages from './Messages/Messages';
 import Footer from './Footer/Footer';
@@ -152,6 +153,9 @@ function App() {
                             </Route>     
                             <Route exact path='/typescript-index-signature'>
                                 <TypescriptIndexSignature />
+                            </Route>
+                            <Route exact path='/functional-programming-higher-order-functions'>
+                                <FunctionalProgrammingHigherOrderFunctions />
                             </Route>    
                                   
                             <Route path='/404'>
