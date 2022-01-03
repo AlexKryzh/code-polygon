@@ -30,6 +30,7 @@ import TypescriptTuple from './Typescript/TypescriptTuple';
 import TypescriptIntersection from './Typescript/TypescriptIntersection';
 import TypescriptUnion from './Typescript/TypescriptUnion';
 import TypescriptIterator from './Typescript/TypescriptIterator';
+import TypescriptGenerators from './Typescript/TypescriptGenerators';
 import TypescriptCallable from './Typescript/TypescriptCallable';
 import TypescriptIn from './Typescript/TypescriptIn';
 import TypescriptNull from './Typescript/TypescriptNull';
@@ -129,7 +130,10 @@ function App() {
                             </Route>
                             <Route exact path='/typescript-iterator'>
                                 <TypescriptIterator />
-                            </Route>  
+                            </Route> 
+                            <Route exact path='/typescript-generators'>
+                                <TypescriptGenerators />
+                            </Route> 
                             <Route exact path='/typescript-callable'>
                                 <TypescriptCallable />
                             </Route>   
