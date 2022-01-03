@@ -11,8 +11,17 @@ import DesignPatternsSingleton from './DesignPatterns/DesignPatternsSingleton';
 import DesignPatternsAdapter from './DesignPatterns/DesignPatternsAdapter';
 import DesignPatternsObserver from './DesignPatterns/DesignPatternsObserver';
 import DesignPatternsFacade from './DesignPatterns/DesignPatternsFacade';
+import DesignPatternsPrototype from './DesignPatterns/DesignPatternsPrototype';
 import ReactHooksUseContext from './ReactHooks/ReactHooksUseContext';
 import ReactHooksUseRef from './ReactHooks/ReactHooksUseRef';
+import ReactHooksUseCallback from './ReactHooks/ReactHooksUseCallback';
+import ReactHooksUseDebugValue from './ReactHooks/ReactHooksUseDebugValue';
+import ReactHooksUseEffect from './ReactHooks/ReactHooksUseEffect';
+import ReactHooksUseImperativeHandle from './ReactHooks/ReactHooksUseImperativeHandle';
+import ReactHooksUseLayoutEffect from './ReactHooks/ReactHooksUseLayoutEffect';
+import ReactHooksUseMemo from './ReactHooks/ReactHooksUseMemo';
+import ReactHooksUseReducer from './ReactHooks/ReactHooksUseMemo';
+import ReactHooksUseState from './ReactHooks/ReactHooksUseState';
 import LibrariesBigJs from './Libraries/LibrariesBigJs';
 import TypescriptEnums from './Typescript/TypescriptEnums';
 import TypescriptDeclare from './Typescript/TypescriptDeclare';
@@ -60,6 +69,9 @@ function App() {
                             <Route exact path='/design-patterns-facade'>
                                 <DesignPatternsFacade />
                             </Route>
+                            <Route exact path='/design-patterns-prototype'>
+                                <DesignPatternsPrototype />
+                            </Route>
                             <Route exact path='/design-patterns-observer'>
                                 <DesignPatternsObserver />
                             </Route>
@@ -68,6 +80,30 @@ function App() {
                             </Route>
                             <Route exact path='/react-hooks-useref'>
                                 <ReactHooksUseRef />
+                            </Route>
+                            <Route exact path='/react-hooks-usecallback'>
+                                <ReactHooksUseCallback />
+                            </Route>
+                            <Route exact path='/react-hooks-usedebugvalue'>
+                                <ReactHooksUseDebugValue />
+                            </Route>
+                            <Route exact path='/react-hooks-useeffect'>
+                                <ReactHooksUseEffect />
+                            </Route>
+                            <Route exact path='/react-hooks-useimperativehandle'>
+                                <ReactHooksUseImperativeHandle />
+                            </Route>
+                            <Route exact path='/react-hooks-uselayouteffect'>
+                                <ReactHooksUseLayoutEffect />
+                            </Route>
+                            <Route exact path='/react-hooks-usememo'>
+                                <ReactHooksUseMemo />
+                            </Route>
+                            <Route exact path='/react-hooks-usereducer'>
+                                <ReactHooksUseReducer />
+                            </Route>
+                            <Route exact path='/react-hooks-useState'>
+                                <ReactHooksUseState />
                             </Route>
                             <Route exact path='/libraries-bigjs'>
                                 <LibrariesBigJs />

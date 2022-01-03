@@ -22,7 +22,7 @@ function Home() {
                             <Link>Builder</Link>
                         </Box>
                         <Box py={2}>
-                            <Link>Prototype</Link>
+                            <Link href="/design-patterns-prototype">Prototype</Link>
                         </Box>
                         <Box py={2}>
                             <Link href="/design-patterns-singleton">Singleton</Link>
@@ -87,36 +87,36 @@ function Home() {
                 <Accordion title="React Hooks" borders="none">
                     <Accordion title="Basic Hooks"  borders="none">
                         <Box py={2}>
-                            <Link>useState</Link>
+                            <Link href="/react-hooks-usestate">useState</Link>
                         </Box>
                         <Box py={2}>
-                            <Link>useEffect</Link>
+                            <Link href="/react-hooks-useeffect">useEffect</Link>
                         </Box>
                         <Box py={2}>
-                            <Link>useContext</Link>
+                            <Link href="/react-hooks-usecontext">useContext</Link>
                         </Box>
                     </Accordion>
                     <Accordion title="Additional Hooks"  borders="none">
                         <Box py={2}>
-                            <Link>useReducer</Link>
+                            <Link href="/react-hooks-usereducer">useReducer</Link>
                         </Box>
                         <Box py={2}>
-                            <Link>useCallback</Link>
+                            <Link href="/react-hooks-usecallback">useCallback</Link>
                         </Box>
                         <Box py={2}>
-                            <Link>useMemo</Link>
+                            <Link href="/react-hooks-usmemo">useMemo</Link>
                         </Box>
                         <Box py={2}>
                             <Link href="/react-hooks-useref">useRef</Link>
                         </Box>
                         <Box py={2}>
-                            <Link>useImperativeHandle</Link>
+                            <Link href="/react-hooks-useimperativehandle">useImperativeHandle</Link>
                         </Box>
                         <Box py={2}>
-                            <Link>useLayoutEffect</Link>
+                            <Link href="/react-hooks-uselayouteffect">useLayoutEffect</Link>
                         </Box>
                         <Box py={2}>
-                            <Link>useDebugValue</Link>
+                            <Link href="/react-hooks-usedebugvalue">useDebugValue</Link>
                         </Box>
                     </Accordion>
                 </Accordion>
