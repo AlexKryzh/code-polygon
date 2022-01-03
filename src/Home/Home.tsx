@@ -169,7 +169,10 @@ function Home() {
                 </Accordion>
                 <Accordion title="Functional Programming" borders="none">
                     <Box py={2}>
-                    <Link href="/functional-programming-higher-order-functions">Higher-Order Functions</Link>
+                        <Link href="/functional-programming-higher-order-functions">Higher-Order Functions</Link>
+                    </Box>
+                    <Box py={2}>
+                        <Link href="/functional-programming-laziness">Laziness</Link>
                     </Box>
                 </Accordion>
                 <Accordion title="Libraries" borders="none">
