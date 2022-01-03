@@ -164,6 +164,9 @@ function Home() {
                         <Link href="/typescript-in">In</Link>
                     </Box>
                     <Box py={2}>
+                        <Link href="/typescript-hoisting">Hoisting</Link>
+                    </Box>
+                    <Box py={2}>
                         <Link href="/typescript-literals">Literals</Link>
                     </Box>
                 </Accordion>

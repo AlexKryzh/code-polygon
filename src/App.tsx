@@ -34,6 +34,7 @@ import TypescriptCallable from './Typescript/TypescriptCallable';
 import TypescriptIn from './Typescript/TypescriptIn';
 import TypescriptNull from './Typescript/TypescriptNull';
 import TypescriptBarrel from './Typescript/TypescriptBarrel';
+import TypescriptHoisting from './Typescript/TypescriptHoisting';
 import TypescriptLiterals from './Typescript/TypescriptLiterals';
 import TypescriptReadOnly from './Typescript/TypescriptReadOnly';
 import TypescriptIndexSignature from './Typescript/TypescriptIndexSignature';
@@ -140,6 +141,9 @@ function App() {
                             </Route>
                             <Route exact path='/typescript-in'>
                                 <TypescriptIn />
+                            </Route> 
+                            <Route exact path='/typescript-hoisting'>
+                                <TypescriptHoisting />
                             </Route> 
                             <Route exact path='/typescript-barrel'>
                                 <TypescriptBarrel />
