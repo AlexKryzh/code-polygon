@@ -146,6 +146,9 @@ function Home() {
                         <Link href="/typescript-generators">Generators</Link>
                     </Box>
                     <Box py={2}>
+                        <Link href="/typescript-asynchronous-generators">Asynchronous Generators</Link>
+                    </Box>
+                    <Box py={2}>
                         <Link href="/typescript-enums">Enums</Link>
                     </Box>
                     <Box py={2}>

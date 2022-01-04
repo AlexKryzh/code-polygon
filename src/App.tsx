@@ -31,6 +31,7 @@ import TypescriptIntersection from './Typescript/TypescriptIntersection';
 import TypescriptUnion from './Typescript/TypescriptUnion';
 import TypescriptIterator from './Typescript/TypescriptIterator';
 import TypescriptGenerators from './Typescript/TypescriptGenerators';
+import TypescriptAsynchronousGenerators from './Typescript/TypescriptAsynchronousGenerators';
 import TypescriptCallable from './Typescript/TypescriptCallable';
 import TypescriptIn from './Typescript/TypescriptIn';
 import TypescriptNull from './Typescript/TypescriptNull';
@@ -134,6 +135,9 @@ function App() {
                             <Route exact path='/typescript-generators'>
                                 <TypescriptGenerators />
                             </Route> 
+                            <Route exact path='/typescript-asynchronous-generators'>
+                                <TypescriptAsynchronousGenerators />
+                            </Route>
                             <Route exact path='/typescript-callable'>
                                 <TypescriptCallable />
                             </Route>   
