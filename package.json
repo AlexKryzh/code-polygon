@@ -49,6 +49,7 @@
     "@types/jest": "27.0.2",
     "@types/styled-components": "^5.1.18",
     "babel-eslint": "^10.1.0",
+    "deep-equal": "^2.0.5",
     "eclint": "^2.8.1",
     "eslint-config-react-app": "^6.0.0",
     "eslint-plugin-cypress": "^2.12.1",

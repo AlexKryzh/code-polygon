@@ -23,6 +23,7 @@ import ReactHooksUseMemo from './ReactHooks/ReactHooksUseMemo';
 import ReactHooksUseReducer from './ReactHooks/ReactHooksUseMemo';
 import ReactHooksUseState from './ReactHooks/ReactHooksUseState';
 import LibrariesBigJs from './Libraries/LibrariesBigJs';
+import LibrariesDeepEqual from './Libraries/LibrariesDeepEqual';
 import TypescriptEnums from './Typescript/TypescriptEnums';
 import TypescriptDeclare from './Typescript/TypescriptDeclare';
 import TypescriptGenerics from './Typescript/TypescriptGenerics';
@@ -114,6 +115,9 @@ function App() {
                             </Route>
                             <Route exact path='/libraries-bigjs'>
                                 <LibrariesBigJs />
+                            </Route>
+                            <Route exact path='/libraries-deep-equal'>
+                                <LibrariesDeepEqual />
                             </Route>
                             <Route exact path='/typescript-enums'>
                                 <TypescriptEnums />

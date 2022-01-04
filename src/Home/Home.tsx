@@ -192,7 +192,10 @@ function Home() {
                 </Accordion>
                 <Accordion title="Libraries" borders="none">
                     <Box py={2}>
-                    <Link href="/libraries-bigjs">Big.js</Link>
+                        <Link href="/libraries-bigjs">Big.js</Link>
+                    </Box>
+                    <Box py={2}>
+                        <Link href="/libraries-deep-equal">deep-iqual</Link>
                     </Box>
                 </Accordion>
             </AccordionGroup>
