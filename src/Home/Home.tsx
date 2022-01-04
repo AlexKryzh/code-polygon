@@ -186,6 +186,9 @@ function Home() {
                     <Box py={2}>
                         <Link href="/functional-programming-function-Overloading">Function Overloading</Link>
                     </Box>
+                    <Box py={2}>
+                        <Link href="/functional-programming-composition">Composition</Link>
+                    </Box>
                 </Accordion>
                 <Accordion title="Libraries" borders="none">
                     <Box py={2}>

@@ -44,6 +44,7 @@ import TypescriptTypeVSInterface from './Typescript/TypescriptTypeVSInterface';
 import FunctionalProgrammingHigherOrderFunctions from './FunctionalProgramming/FunctionalProgrammingHigherOrderFunctions';
 import FunctionalProgrammingLaziness from './FunctionalProgramming/FunctionalProgrammingLaziness';
 import FunctionalProgrammingFunctionOverloading from './FunctionalProgramming/FunctionalProgrammingFunctionOverloading';
+import FunctionalProgrammingComposition from './FunctionalProgramming/FunctionalProgrammingComposition';
 import Loading from './Loading/Loading';
 import Messages from './Messages/Messages';
 import Footer from './Footer/Footer';
@@ -176,6 +177,9 @@ function App() {
                             </Route>
                             <Route exact path='/functional-programming-function-Overloading'>
                                 <FunctionalProgrammingFunctionOverloading />
+                            </Route>
+                            <Route exact path='/functional-programming-composition'>
+                                <FunctionalProgrammingComposition />
                             </Route>
                             <Route path='/404'>
                                 <NotFound />
