@@ -59,7 +59,7 @@ function Home() {
                             <Link>Command</Link>
                         </Box>
                         <Box py={2}>
-                            <Link>Iterator</Link>
+                            <Link href="/design-patterns-iterator">Iterator</Link>
                         </Box>
                         <Box py={2}>
                             <Link>Mediator</Link>

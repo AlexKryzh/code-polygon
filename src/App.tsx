@@ -13,6 +13,7 @@ import DesignPatternsObserver from './DesignPatterns/DesignPatternsObserver';
 import DesignPatternsFacade from './DesignPatterns/DesignPatternsFacade';
 import DesignPatternsPrototype from './DesignPatterns/DesignPatternsPrototype';
 import DesignPatternsDecorator from './DesignPatterns/DesignPatternsDecorator';
+import DesignPatternsIterator from './DesignPatterns/DesignPatternsIterator';
 import ReactHooksUseContext from './ReactHooks/ReactHooksUseContext';
 import ReactHooksUseRef from './ReactHooks/ReactHooksUseRef';
 import ReactHooksUseCallback from './ReactHooks/ReactHooksUseCallback';
@@ -87,6 +88,9 @@ function App() {
                             </Route>
                             <Route exact path='/design-patterns-decorator'>
                                 <DesignPatternsDecorator />
+                            </Route>
+                            <Route exact path='/design-patterns-iterator'>
+                                <DesignPatternsIterator />
                             </Route>
                             <Route exact path='/react-hooks-usecontext'>
                                 <ReactHooksUseContext />
