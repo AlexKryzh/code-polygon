@@ -27,6 +27,7 @@ import ReactHooksUseReducer from './ReactHooks/ReactHooksUseMemo';
 import ReactHooksUseState from './ReactHooks/ReactHooksUseState';
 import LibrariesBigJs from './Libraries/LibrariesBigJs';
 import LibrariesDeepEqual from './Libraries/LibrariesDeepEqual';
+import LibrariesImmutableJs from './Libraries/LibrariesImmutableJs';
 import TypescriptEnums from './Typescript/TypescriptEnums';
 import TypescriptDeclare from './Typescript/TypescriptDeclare';
 import TypescriptGenerics from './Typescript/TypescriptGenerics';
@@ -48,6 +49,7 @@ import TypescriptTypeVSInterface from './Typescript/TypescriptTypeVSInterface';
 import FunctionalProgrammingHigherOrderFunctions from './FunctionalProgramming/FunctionalProgrammingHigherOrderFunctions';
 import FunctionalProgrammingLaziness from './FunctionalProgramming/FunctionalProgrammingLaziness';
 import FunctionalProgrammingFunctionOverloading from './FunctionalProgramming/FunctionalProgrammingFunctionOverloading';
+import FunctionalProgrammingPartialApplication from './FunctionalProgramming/FunctionalProgrammingPartialApplication';
 import FunctionalProgrammingComposition from './FunctionalProgramming/FunctionalProgrammingComposition';
 import WebWorkersBroadcastChannelApi from './WebWorkers/WebWorkersBroadcastChannelApi';
 import Loading from './Loading/Loading';
@@ -132,6 +134,9 @@ function App() {
                             <Route exact path='/libraries-deep-equal'>
                                 <LibrariesDeepEqual />
                             </Route>
+                            <Route exact path='/libraries-immutablejs'>
+                                <LibrariesImmutableJs />
+                            </Route>
                             <Route exact path='/typescript-enums'>
                                 <TypescriptEnums />
                             </Route>
@@ -197,6 +202,9 @@ function App() {
                             </Route>
                             <Route exact path='/functional-programming-composition'>
                                 <FunctionalProgrammingComposition />
+                            </Route>
+                            <Route exact path='/functional-programming-partial-application'>
+                                <FunctionalProgrammingPartialApplication />
                             </Route>
                             <Route exact path='/webworkers-broadcast-channel-api'>
                                 <WebWorkersBroadcastChannelApi />

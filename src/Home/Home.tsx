@@ -189,6 +189,9 @@ function Home() {
                     <Box py={2}>
                         <Link href="/functional-programming-composition">Composition</Link>
                     </Box>
+                    <Box py={2}>
+                        <Link href="/functional-programming-partial-application">Partial Application</Link>
+                    </Box>
                 </Accordion>
                 <Accordion title="Web Workers" borders="none">
                     <Box py={2}>
@@ -201,6 +204,9 @@ function Home() {
                     </Box>
                     <Box py={2}>
                         <Link href="/libraries-deep-equal">deep-iqual</Link>
+                    </Box>
+                    <Box py={2}>
+                        <Link href="/libraries-immutablejs">immutable.js</Link>
                     </Box>
                 </Accordion>
             </AccordionGroup>
