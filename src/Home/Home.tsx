@@ -39,7 +39,7 @@ function Home() {
                             <Link>Composite</Link>
                         </Box>
                         <Box py={2}>
-                            <Link>Decorator</Link>
+                            <Link href="/design-patterns-decorator">Decorator</Link>
                         </Box>
                         <Box py={2}>
                             <Link href="/design-patterns-facade">Facade</Link>
@@ -188,6 +188,11 @@ function Home() {
                     </Box>
                     <Box py={2}>
                         <Link href="/functional-programming-composition">Composition</Link>
+                    </Box>
+                </Accordion>
+                <Accordion title="Web Workers" borders="none">
+                    <Box py={2}>
+                        <Link href="/webworkers-broadcast-channel-api">Broadcast Channel Api</Link>
                     </Box>
                 </Accordion>
                 <Accordion title="Libraries" borders="none">

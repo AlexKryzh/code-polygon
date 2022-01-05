@@ -12,6 +12,7 @@ import DesignPatternsAdapter from './DesignPatterns/DesignPatternsAdapter';
 import DesignPatternsObserver from './DesignPatterns/DesignPatternsObserver';
 import DesignPatternsFacade from './DesignPatterns/DesignPatternsFacade';
 import DesignPatternsPrototype from './DesignPatterns/DesignPatternsPrototype';
+import DesignPatternsDecorator from './DesignPatterns/DesignPatternsDecorator';
 import ReactHooksUseContext from './ReactHooks/ReactHooksUseContext';
 import ReactHooksUseRef from './ReactHooks/ReactHooksUseRef';
 import ReactHooksUseCallback from './ReactHooks/ReactHooksUseCallback';
@@ -46,6 +47,7 @@ import FunctionalProgrammingHigherOrderFunctions from './FunctionalProgramming/F
 import FunctionalProgrammingLaziness from './FunctionalProgramming/FunctionalProgrammingLaziness';
 import FunctionalProgrammingFunctionOverloading from './FunctionalProgramming/FunctionalProgrammingFunctionOverloading';
 import FunctionalProgrammingComposition from './FunctionalProgramming/FunctionalProgrammingComposition';
+import WebWorkersBroadcastChannelApi from './WebWorkers/WebWorkersBroadcastChannelApi';
 import Loading from './Loading/Loading';
 import Messages from './Messages/Messages';
 import Footer from './Footer/Footer';
@@ -82,6 +84,9 @@ function App() {
                             </Route>
                             <Route exact path='/design-patterns-observer'>
                                 <DesignPatternsObserver />
+                            </Route>
+                            <Route exact path='/design-patterns-decorator'>
+                                <DesignPatternsDecorator />
                             </Route>
                             <Route exact path='/react-hooks-usecontext'>
                                 <ReactHooksUseContext />
@@ -184,6 +189,9 @@ function App() {
                             </Route>
                             <Route exact path='/functional-programming-composition'>
                                 <FunctionalProgrammingComposition />
+                            </Route>
+                            <Route exact path='/webworkers-broadcast-channel-api'>
+                                <WebWorkersBroadcastChannelApi />
                             </Route>
                             <Route path='/404'>
                                 <NotFound />
