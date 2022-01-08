@@ -74,7 +74,7 @@ function Home() {
                             <Link>State</Link>
                         </Box>
                         <Box py={2}>
-                            <Link>Strategy</Link>
+                            <Link href="/design-patterns-strategy">Strategy</Link>
                         </Box>
                         <Box py={2}>
                             <Link>Template Method</Link>
