@@ -192,6 +192,9 @@ function Home() {
                     <Box py={2}>
                         <Link href="/functional-programming-partial-application">Partial Application</Link>
                     </Box>
+                    <Box py={2}>
+                        <Link href="/functional-programming-currying">Currying</Link>
+                    </Box>
                 </Accordion>
                 <Accordion title="Web Workers" borders="none">
                     <Box py={2}>
