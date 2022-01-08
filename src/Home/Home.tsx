@@ -195,6 +195,9 @@ function Home() {
                     <Box py={2}>
                         <Link href="/functional-programming-currying">Currying</Link>
                     </Box>
+                    <Box py={2}>
+                        <Link href="/functional-programming-pipes">Pipes</Link>
+                    </Box>
                 </Accordion>
                 <Accordion title="Web Workers" borders="none">
                     <Box py={2}>

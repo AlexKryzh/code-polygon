@@ -52,6 +52,7 @@ import FunctionalProgrammingLaziness from './FunctionalProgramming/FunctionalPro
 import FunctionalProgrammingFunctionOverloading from './FunctionalProgramming/FunctionalProgrammingFunctionOverloading';
 import FunctionalProgrammingPartialApplication from './FunctionalProgramming/FunctionalProgrammingPartialApplication';
 import FunctionalProgrammingCurrying from './FunctionalProgramming/FunctionalProgrammingCurrying';
+import FunctionalProgrammingPipes from './FunctionalProgramming/FunctionalProgrammingPipes';
 import FunctionalProgrammingComposition from './FunctionalProgramming/FunctionalProgrammingComposition';
 import WebWorkersBroadcastChannelApi from './WebWorkers/WebWorkersBroadcastChannelApi';
 import Loading from './Loading/Loading';
@@ -213,6 +214,9 @@ function App() {
                             </Route>
                             <Route exact path='/functional-programming-currying'>
                                 <FunctionalProgrammingCurrying />
+                            </Route>
+                            <Route exact path='/functional-programming-pipes'>
+                                <FunctionalProgrammingPipes />
                             </Route>
                             <Route exact path='/webworkers-broadcast-channel-api'>
                                 <WebWorkersBroadcastChannelApi />
