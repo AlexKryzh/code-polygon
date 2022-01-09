@@ -16,6 +16,7 @@ import DesignPatternsDecorator from './DesignPatterns/DesignPatternsDecorator';
 import DesignPatternsIterator from './DesignPatterns/DesignPatternsIterator';
 import DesignPatternsMemento from './DesignPatterns/DesignPatternsMemento';
 import DesignPatternsStrategy from './DesignPatterns/DesignPatternsStrategy';
+import DesignPatternsCommand from './DesignPatterns/DesignPatternsCommand';
 import ReactHooksUseContext from './ReactHooks/ReactHooksUseContext';
 import ReactHooksUseRef from './ReactHooks/ReactHooksUseRef';
 import ReactHooksUseCallback from './ReactHooks/ReactHooksUseCallback';
@@ -105,6 +106,9 @@ function App() {
                             </Route>
                             <Route exact path='/design-patterns-strategy'>
                                 <DesignPatternsStrategy />
+                            </Route>
+                            <Route exact path='/design-patterns-command'>
+                                <DesignPatternsCommand />
                             </Route>
                             <Route exact path='/react-hooks-usecontext'>
                                 <ReactHooksUseContext />

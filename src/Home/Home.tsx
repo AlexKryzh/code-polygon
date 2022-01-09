@@ -56,7 +56,7 @@ function Home() {
                             <Link>Chain of Responsibility</Link>
                         </Box>
                         <Box py={2}>
-                            <Link>Command</Link>
+                            <Link href="/design-patterns-command">Command</Link>
                         </Box>
                         <Box py={2}>
                             <Link href="/design-patterns-iterator">Iterator</Link>
