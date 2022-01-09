@@ -62,7 +62,8 @@ function FunctionalProgrammingLaziness() {
                 <Card spacing="medium" cardWidth="300px">
                     <CardRow spacing="medium">
                         <Detail>
-                            <p>Many functional programming languages feature lazy-evaluated APIs. The idea behind lazy evaluation is that operations are not computed until doing so can no longer be postponed.</p>
+                            <p>MLazy evaluation is a technique or pattern that delays the evaluation of an expression until its value is needed.</p>
+                            <p>Lazy evaluation is a technique that delays the execution of some operations until they can no longer be delayed. Lazy evaluation can sometimes lead to performance gains.</p>
                         </Detail>
                     </CardRow>
                 </Card>
@@ -115,6 +116,38 @@ const spiderman = lazyFind(heroes, (h) => h.name === "Spiderman");
 console.log("B");
 console.log(spiderman.name);
 console.log("C");
+
+// The following code snippet implements a function named filter and a function
+// named find. Both functions are the equivalent of the array filter and find methods
+// respectively. However, the filter function uses a generator (function*) and the find
+// function uses a for ... of statement, which is used to iterate the items returned by
+// the iterator created by the preceding generator:
+
+const filter = <T>(f: (item: T) => boolean) => {
+    return function* (arr: T[]) {
+        for (const item of arr) {
+            if (f(item)) {
+                yield item;
+            }
+        }
+    };
+};
+
+const find = <T>(f: (item: T) => boolean) =>(arr: IterableIterator<T>) => {
+    for (const item of arr) {
+        if (f(item)) {
+            return item;
+        }
+    }
+};
+
+// The code snippet uses the compose function from Ramda to compose the return of
+// find(isOld) and filter(isLarge). The result is a new function named findLargeOldDog.
+// We can use this function to find the Dog instances in the dogs array that matches
+// both the isLarge and isOld constraints:
+
+const findLargeOldDog = R.compose(find(isOld), filter(isLarge));
+findLargeOldDog(dogs);
 
                 `}
             />

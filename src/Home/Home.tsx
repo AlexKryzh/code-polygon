@@ -181,9 +181,6 @@ function Home() {
                         <Link href="/functional-programming-higher-order-functions">Higher-Order Functions</Link>
                     </Box>
                     <Box py={2}>
-                        <Link href="/functional-programming-laziness">Laziness</Link>
-                    </Box>
-                    <Box py={2}>
                         <Link href="/functional-programming-function-Overloading">Function Overloading</Link>
                     </Box>
                     <Box py={2}>
@@ -197,6 +194,15 @@ function Home() {
                     </Box>
                     <Box py={2}>
                         <Link href="/functional-programming-pipes">Pipes</Link>
+                    </Box>
+                    <Box py={2}>
+                        <Link href="/functional-programming-lenses">Lenses</Link>
+                    </Box>
+                    <Box py={2}>
+                        <Link href="/functional-programming-prisms">Prisms</Link>
+                    </Box>
+                    <Box py={2}>
+                        <Link href="/functional-programming-laziness">Laziness</Link>
                     </Box>
                 </Accordion>
                 <Accordion title="Web Workers" borders="none">

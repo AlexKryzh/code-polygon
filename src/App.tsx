@@ -54,6 +54,8 @@ import FunctionalProgrammingPartialApplication from './FunctionalProgramming/Fun
 import FunctionalProgrammingCurrying from './FunctionalProgramming/FunctionalProgrammingCurrying';
 import FunctionalProgrammingPipes from './FunctionalProgramming/FunctionalProgrammingPipes';
 import FunctionalProgrammingComposition from './FunctionalProgramming/FunctionalProgrammingComposition';
+import FunctionalProgrammingLenses from './FunctionalProgramming/FunctionalProgrammingLenses';
+import FunctionalProgrammingPrisms from './FunctionalProgramming/FunctionalProgrammingPrisms';
 import WebWorkersBroadcastChannelApi from './WebWorkers/WebWorkersBroadcastChannelApi';
 import Loading from './Loading/Loading';
 import Messages from './Messages/Messages';
@@ -208,6 +210,12 @@ function App() {
                             </Route>
                             <Route exact path='/functional-programming-composition'>
                                 <FunctionalProgrammingComposition />
+                            </Route>
+                            <Route exact path='/functional-programming-lenses'>
+                                <FunctionalProgrammingLenses />
+                            </Route>
+                            <Route exact path='/functional-programming-prisms'>
+                                <FunctionalProgrammingPrisms />
                             </Route>
                             <Route exact path='/functional-programming-partial-application'>
                                 <FunctionalProgrammingPartialApplication />
