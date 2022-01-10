@@ -57,6 +57,7 @@ import FunctionalProgrammingPipes from './FunctionalProgramming/FunctionalProgra
 import FunctionalProgrammingComposition from './FunctionalProgramming/FunctionalProgrammingComposition';
 import FunctionalProgrammingLenses from './FunctionalProgramming/FunctionalProgrammingLenses';
 import FunctionalProgrammingPrisms from './FunctionalProgramming/FunctionalProgrammingPrisms';
+import RxJsObservable from './RxJs/RxJsObservable';
 import WebWorkersBroadcastChannelApi from './WebWorkers/WebWorkersBroadcastChannelApi';
 import Loading from './Loading/Loading';
 import Messages from './Messages/Messages';
@@ -229,6 +230,9 @@ function App() {
                             </Route>
                             <Route exact path='/functional-programming-pipes'>
                                 <FunctionalProgrammingPipes />
+                            </Route>
+                            <Route exact path='/rxjs-observable'>
+                                <RxJsObservable />
                             </Route>
                             <Route exact path='/webworkers-broadcast-channel-api'>
                                 <WebWorkersBroadcastChannelApi />

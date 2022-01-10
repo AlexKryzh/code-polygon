@@ -10,77 +10,77 @@ function Home() {
         <div className="home">
             <Typography variant="h1">Code Playground</Typography>
             <AccordionGroup>
-                <Accordion title="Design Patterns" borders="none">
+                <Accordion title="Design Patterns [complexity/popularity]" borders="none">
                     <Accordion title="Creational Design Patterns"  borders="none">
                         <Box py={2}>
-                            <Link>Factory Method</Link>
+                            <Link>Factory Method [1]/[3]</Link>
                         </Box>
                         <Box py={2}>
-                            <Link>Abstract Method</Link>
+                            <Link>Abstract Method [2/[3]</Link>
                         </Box>
                         <Box py={2}>
-                            <Link>Builder</Link>
+                            <Link>Builder [2]/[3]</Link>
                         </Box>
                         <Box py={2}>
-                            <Link href="/design-patterns-prototype">Prototype</Link>
+                            <Link href="/design-patterns-prototype">Prototype [1]/[2]</Link>
                         </Box>
                         <Box py={2}>
-                            <Link href="/design-patterns-singleton">Singleton</Link>
+                            <Link href="/design-patterns-singleton">Singleton [1]/[2]</Link>
                         </Box>
                     </Accordion>
                     <Accordion title="Structural Design Patterns"  borders="none">
                         <Box py={2}>
-                            <Link href="/design-patterns-adapter">Adapter</Link>
+                            <Link href="/design-patterns-adapter">Adapter [1]/[3]</Link>
                         </Box>
                         <Box py={2}>
-                            <Link>Bridge</Link>
+                            <Link>Bridge [3]/[1]</Link>
                         </Box>
                         <Box py={2}>
-                            <Link>Composite</Link>
+                            <Link>Composite [2]/[2]</Link>
                         </Box>
                         <Box py={2}>
-                            <Link href="/design-patterns-decorator">Decorator</Link>
+                            <Link href="/design-patterns-decorator">Decorator [2]/[2]</Link>
                         </Box>
                         <Box py={2}>
-                            <Link href="/design-patterns-facade">Facade</Link>
+                            <Link href="/design-patterns-facade">Facade [1]/[2]</Link>
                         </Box>
                         <Box py={2}>
-                            <Link>Flyweight</Link>
+                            <Link>Flyweight [3]/[0]</Link>
                         </Box>
                         <Box py={2}>
-                            <Link>Proxy</Link>
+                            <Link>Proxy [2]/[1]</Link>
                         </Box>
                     </Accordion>
                     <Accordion title="Behavioral Design Patterns" borders="none">
                         <Box py={2}>
-                            <Link>Chain of Responsibility</Link>
+                            <Link>Chain of Responsibility [2]/[1]</Link>
                         </Box>
                         <Box py={2}>
-                            <Link href="/design-patterns-command">Command</Link>
+                            <Link href="/design-patterns-command">Command [1]/[3]</Link>
                         </Box>
                         <Box py={2}>
-                            <Link href="/design-patterns-iterator">Iterator</Link>
+                            <Link href="/design-patterns-iterator">Iterator [2]/[3]</Link>
                         </Box>
                         <Box py={2}>
-                            <Link>Mediator</Link>
+                            <Link>Mediator [2]/[0]</Link>
                         </Box>
                         <Box py={2}>
-                            <Link href="/design-patterns-memento">Memento</Link>
+                            <Link href="/design-patterns-memento">Memento [3]/[1]</Link>
                         </Box>
                         <Box py={2}>
-                            <Link href="/design-patterns-observer">Observer</Link>
+                            <Link href="/design-patterns-observer">Observer [2]/[3]</Link>
                         </Box>
                         <Box py={2}>
-                            <Link>State</Link>
+                            <Link>State [1]/[2]</Link>
                         </Box>
                         <Box py={2}>
-                            <Link href="/design-patterns-strategy">Strategy</Link>
+                            <Link href="/design-patterns-strategy">Strategy [1]/[3]</Link>
                         </Box>
                         <Box py={2}>
-                            <Link>Template Method</Link>
+                            <Link>Template Method [1]/[2]</Link>
                         </Box>
                         <Box py={2}>
-                            <Link>Visitor</Link>
+                            <Link>Visitor [3]/[1]</Link>
                         </Box>
                     </Accordion>
                 </Accordion>
@@ -203,6 +203,11 @@ function Home() {
                     </Box>
                     <Box py={2}>
                         <Link href="/functional-programming-laziness">Laziness</Link>
+                    </Box>
+                </Accordion>
+                <Accordion title="RxJS - Reactive Extensions Library for JS" borders="none">
+                    <Box py={2}>
+                        <Link href="/rxjs-observable">Observable Sequence Pattern</Link>
                     </Box>
                 </Accordion>
                 <Accordion title="Web Workers" borders="none">
