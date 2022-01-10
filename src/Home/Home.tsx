@@ -205,9 +205,12 @@ function Home() {
                         <Link href="/functional-programming-laziness">Laziness</Link>
                     </Box>
                 </Accordion>
-                <Accordion title="RxJS - Reactive Extensions Library for JS" borders="none">
+                <Accordion title="RxJS" borders="none">
                     <Box py={2}>
                         <Link href="/rxjs-observable">Observable Sequence Pattern</Link>
+                    </Box>
+                    <Box py={2}>
+                        <Link href="/rxjs-operators">Operators</Link>
                     </Box>
                 </Accordion>
                 <Accordion title="Web Workers" borders="none">

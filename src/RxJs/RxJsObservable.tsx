@@ -139,6 +139,13 @@ const subscription = observable.subscribe(
     (value) => console.log(value.toString())
 );
 subscription.unsubscribe();
+
+// Cold observables start running upon subscription, that is, the observable sequence only starts pushing
+// values to the observers when Subscribe is called. Values are also not shared among subscribers. This is
+// different from hot observables, such as mouse move events or stock tickers, which are already producing
+// values even before a subscription is active. When an observer subscribes to a hot observable sequence, it
+// will get all values in the stream that are emitted after it subscribes. The hot observable sequence is shared
+// among all subscribers, and each subscriber is pushed the next value in the sequence.
                 `}
             />
             <Box m={3} p={3} bg="secondary">
