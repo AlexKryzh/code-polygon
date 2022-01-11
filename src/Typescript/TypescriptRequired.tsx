@@ -11,12 +11,12 @@ function TypescriptRequired() {
 
     return (
         <div>
-            <Heading title="Partial / Typescript" />
+            <Heading title="Required / Typescript" />
             <Box display="flex" flexDirection="row" justifyContent="space-between" alignItems="stretch" mb={3}>
                 <Card spacing="medium" cardWidth="300px">
                     <CardRow spacing="medium">
                         <Detail>
-                            <p></p>
+                            <p>Constructs a type consisting of all properties of Type set to required. The opposite of Partial.</p>
                         </Detail>
                     </CardRow>
                 </Card>
@@ -26,7 +26,17 @@ function TypescriptRequired() {
                 height="70vh"
                 defaultLanguage="typescript"
                 defaultValue={`
+interface Props {
+    a?: number;
+    b?: string;
+}
 
+const obj: Props = { a: 5 };
+
+const obj2: Required<Props> = { a: 5 };
+
+// Property 'b' is missing in type '{ a: number; }' 
+// but required in type 'Required<Props>'.
 
                 `}
             />
