@@ -121,6 +121,56 @@ function Home() {
                     </Accordion>
                 </Accordion>
                 <Accordion title="Typescript" borders="none">
+                    <Accordion title="Utility Types" borders="none">
+                        <Box py={2}>
+                            <Link href="/typescript-partial">Partial</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link href="/typescript-required">Required</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link href="/typescript-readonly">Readonly</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link href="/typescript-record">Record</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link href="/typescript-pick">Pick</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link href="/typescript-omit">Omit</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link href="/typescript-exclude">Exclude</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link href="/typescript-extract">Extract</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link href="/typescript-nonnullable">NonNullable</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link href="/typescript-parameters">Parameters</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link href="/typescript-constructorparameters">ConstructorParameters</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link href="/typescript-returntype">ReturnType</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link href="/typescript-instancetype">InstanceType</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link href="/typescript-thisparametertype">ThisParameterType</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link href="/typescript-omitthisparameter">OmitThisParameter</Link>
+                        </Box>
+                        <Box py={2}>
+                            <Link href="/typescript-thistype">ThisType</Link>
+                        </Box>
+                    </Accordion>
                     <Box py={2}>
                         <Link href="/typescript-declare">Declare</Link>
                     </Box>
@@ -150,9 +200,6 @@ function Home() {
                     </Box>
                     <Box py={2}>
                         <Link href="/typescript-enums">Enums</Link>
-                    </Box>
-                    <Box py={2}>
-                        <Link href="/typescript-readonly">Readonly</Link>
                     </Box>
                     <Box py={2}>
                         <Link href="/typescript-tuple">Tuple</Link>

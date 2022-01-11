@@ -25,7 +25,7 @@ import ReactHooksUseEffect from './ReactHooks/ReactHooksUseEffect';
 import ReactHooksUseImperativeHandle from './ReactHooks/ReactHooksUseImperativeHandle';
 import ReactHooksUseLayoutEffect from './ReactHooks/ReactHooksUseLayoutEffect';
 import ReactHooksUseMemo from './ReactHooks/ReactHooksUseMemo';
-import ReactHooksUseReducer from './ReactHooks/ReactHooksUseMemo';
+import ReactHooksUseReducer from './ReactHooks/ReactHooksUseReducer';
 import ReactHooksUseState from './ReactHooks/ReactHooksUseState';
 import LibrariesBigJs from './Libraries/LibrariesBigJs';
 import LibrariesDeepEqual from './Libraries/LibrariesDeepEqual';
