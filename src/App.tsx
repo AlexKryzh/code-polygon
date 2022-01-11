@@ -47,6 +47,21 @@ import TypescriptHoisting from './Typescript/TypescriptHoisting';
 import TypescriptLiterals from './Typescript/TypescriptLiterals';
 import TypescriptReadOnly from './Typescript/TypescriptReadOnly';
 import TypescriptIndexSignature from './Typescript/TypescriptIndexSignature';
+import TypescriptPartial from './Typescript/TypescriptPartial';
+import TypescriptRequired from './Typescript/TypescriptRequired';
+import TypescriptRecord from './Typescript/TypescriptRecord';
+import TypescriptPick from './Typescript/TypescriptPick';
+import TypescriptOmit from './Typescript/TypescriptOmit';
+import TypescriptExclude from './Typescript/TypescriptExclude';
+import TypescriptExtract from './Typescript/TypescriptExtract';
+import TypescriptNonNullable from './Typescript/TypescriptNonNullable';
+import TypescriptParameters from './Typescript/TypescriptParameters';
+import TypescriptConstructorParameters from './Typescript/TypescriptConstructorParameters';
+import TypescriptReturnType from './Typescript/TypescriptReturnType';
+import TypescriptInstanceType from './Typescript/TypescriptInstanceType';
+import TypescriptThisParameterType from './Typescript/TypescriptThisParameterType';
+import TypescriptOmitThisParameter from './Typescript/TypescriptOmitThisParameter';
+import TypescriptThisType from './Typescript/TypescriptThisType';
 import TypescriptTypeVSInterface from './Typescript/TypescriptTypeVSInterface';
 import FunctionalProgrammingHigherOrderFunctions from './FunctionalProgramming/FunctionalProgrammingHigherOrderFunctions';
 import FunctionalProgrammingLaziness from './FunctionalProgramming/FunctionalProgrammingLaziness';
@@ -165,6 +180,51 @@ function App() {
                             </Route>
                             <Route exact path='/typescript-intersection'>
                                 <TypescriptIntersection />
+                            </Route>
+                            <Route exact path='/typescript-partial'>
+                                <TypescriptPartial />
+                            </Route>
+                            <Route exact path='/typescript-required'>
+                                <TypescriptRequired />
+                            </Route>
+                            <Route exact path='/typescript-record'>
+                                <TypescriptRecord />
+                            </Route>
+                            <Route exact path='/typescript-pick'>
+                                <TypescriptPick />
+                            </Route>
+                            <Route exact path='/typescript-omit'>
+                                <TypescriptOmit />
+                            </Route>
+                            <Route exact path='/typescript-exclude'>
+                                <TypescriptExclude />
+                            </Route>
+                            <Route exact path='/typescript-extract'>
+                                <TypescriptExtract />
+                            </Route>
+                            <Route exact path='/typescript-nonnullable'>
+                                <TypescriptNonNullable />
+                            </Route>
+                            <Route exact path='/typescript-parameters'>
+                                <TypescriptParameters />
+                            </Route>
+                            <Route exact path='/typescript-constructorparameters'>
+                                <TypescriptConstructorParameters />
+                            </Route>
+                            <Route exact path='/typescript-returntype'>
+                                <TypescriptReturnType />
+                            </Route>
+                            <Route exact path='/typescript-instancetype'>
+                                <TypescriptInstanceType />
+                            </Route>
+                            <Route exact path='/typescript-thisparametertype'>
+                                <TypescriptThisParameterType />
+                            </Route>
+                            <Route exact path='/typescript-omitthisparameter'>
+                                <TypescriptOmitThisParameter />
+                            </Route>
+                            <Route exact path='/typescript-thistype'>
+                                <TypescriptThisType />
                             </Route>
                             <Route exact path='/typescript-iterator'>
                                 <TypescriptIterator />
