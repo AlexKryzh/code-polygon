@@ -11,12 +11,12 @@ function TypescriptNonNullable() {
 
     return (
         <div>
-            <Heading title=" / Typescript" />
+            <Heading title="NonNullable / Typescript" />
             <Box display="flex" flexDirection="row" justifyContent="space-between" alignItems="stretch" mb={3}>
                 <Card spacing="medium" cardWidth="300px">
                     <CardRow spacing="medium">
                         <Detail>
-                            <p></p>
+                            <p>Constructs a type by excluding null and undefined from Type.</p>
                         </Detail>
                     </CardRow>
                 </Card>
@@ -26,7 +26,13 @@ function TypescriptNonNullable() {
                 height="70vh"
                 defaultLanguage="typescript"
                 defaultValue={`
+type T0 = NonNullable<string | number | undefined>;
 
+//type T0 = string | number
+
+type T1 = NonNullable<string[] | null | undefined>;
+        
+//type T1 = string[]
 
                 `}
             />

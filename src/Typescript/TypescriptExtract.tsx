@@ -11,12 +11,12 @@ function TypescriptExtract() {
 
     return (
         <div>
-            <Heading title=" / Typescript" />
+            <Heading title="Extract / Typescript" />
             <Box display="flex" flexDirection="row" justifyContent="space-between" alignItems="stretch" mb={3}>
                 <Card spacing="medium" cardWidth="300px">
                     <CardRow spacing="medium">
                         <Detail>
-                            <p></p>
+                            <p>Constructs a type by extracting from Type all union members that are assignable to Union.</p>
                         </Detail>
                     </CardRow>
                 </Card>
@@ -26,7 +26,13 @@ function TypescriptExtract() {
                 height="70vh"
                 defaultLanguage="typescript"
                 defaultValue={`
+type T0 = Extract<"a" | "b" | "c", "a" | "f">;
 
+//type T0 = "a"
+
+type T1 = Extract<string | number | (() => void), Function>;
+        
+//type T1 = () => void
 
                 `}
             />
